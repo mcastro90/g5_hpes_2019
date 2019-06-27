@@ -1,0 +1,5 @@
+Steps to generate image:
+1) Copy meta-tec directory
+2) Update conf/bblayers.conf file to add meta-tec path
+3) source oe-init-build-env <build-dir>/build
+4) bitbake tec-image
