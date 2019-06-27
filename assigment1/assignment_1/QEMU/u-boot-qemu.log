@@ -1,5 +1,6 @@
 
-
+qemu-system-arm -machine vexpress-a9 -cpu cortex-a9 -m 512M -kernel u-boot
+-nographic
 U-Boot 2016.11 (Jun 15 2019 - 17:21:26 -0600)
 
 DRAM:  128 MiB
